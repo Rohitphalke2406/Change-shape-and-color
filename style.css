@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(242, 12, 12);
+    margin-top: 50px;
+}
+.letter1{
+    margin-left: 5px;
+    color: rgb(255, 128, 0);
+}
+.letter2{
+    margin-left: 10px;
+    color: orangered;
+}
+.letter3{
+  
+    color: red;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-wrap: wrap;
+    
+
+}
+
+#change-color{
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    margin: 5px;
+    
+}
+
+#change-shape{
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    
+}
+button{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: green;
+    box-sizing: border-box;
+}
+.inner{
+    background-color: white;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 38px;
+    top: 40px;
+}
+
+.triangle-bottom-left{
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
+
